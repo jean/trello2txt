@@ -70,7 +70,7 @@ Trello utilities
 
 ## Requirements
 
-trello2txt use standard libray python module and the request module
+trello2txt uses standard library python module and the request module
 
 On debian/ubuntu:
 
@@ -109,9 +109,9 @@ Run
     vim /path/to/trello2txt/conf.py
 
 Change the configuration, you will need:
-- a trello api developper key [here](https://trello.com/docs/).
-- a trello api developper token [here](https://trello.com/docs/).
-- your master and slave board id (see the url in your webbrowser when you're connected to trello)
+- a trello API developer key [here](https://trello.com/docs/).
+- a trello API developer token [here](https://trello.com/docs/).
+- your master and slave board id (see the URL in your webbrowser when you're connected to trello)
 
 ## Usage
 
@@ -120,12 +120,12 @@ Change the configuration, you will need:
 Trello2txt
 ==========
 
-Fetch trello cards from a board and output their text in stdout. Notable use case: use it with conky !
+Fetch trello cards from a board and output their text to `stdout`. Notable use case: use it with conky !
 
 ## Context
 
-While improving my workflow, I was searching to have my trello tasks quickly accessible.
-Then I lokk at my conky dashboard ;)
+While improving my workflow, I wanted to have my trello tasks quickly accessible.
+Then I looked at my conky dashboard ;)
 All I needed was a trello2txt tool. Here it is !
 
 ## Configuration
@@ -136,12 +136,12 @@ Run
     vim /path/to/trello2txt/conf.py
 
 Change the configuration, you will need:
-- a trello api developper key [here](https://trello.com/docs/).
-- a trello api developper token [here](https://trello.com/docs/).
-- your board id (see the url in your webbrowser when you're connected to trello)
-- the name of the lists you wan't to dump to text
+- a trello API developer key [here](https://trello.com/docs/).
+- a trello API developer token [here](https://trello.com/docs/).
+- your board id (see the URL in your webbrowser when you're connected to trello)
+- the name of the lists you want to dump to text
 
-Adjust the filters to your needs (by default only cards with orange and red labels will be display)
+Adjust the filters to your needs (by default only cards with orange and red labels will be displayed)
 
 ## Usage
 
@@ -160,9 +160,9 @@ Enjoy !
 First make sure you completed the installation section !
 
 There is a conky template to display your trello list on your desktop.
-Edit it first, you'll have to change the path to the trello2txt.py, conf.py and to the stored todolist file.
+Edit it first, you'll have to change the path to the `trello2txt.py`, `conf.py` and to the stored `todolist` file.
 
->I'm currently not happy with it's line by line implementation. I'll be glad if you send me an improvement !
+>I'm currently not happy with its line by line implementation. I'll be glad if you send me an improvement !
 
 Then:
 
@@ -172,7 +172,7 @@ Wait up to 10 minutes to ensure the list is updated.
 
 Tada !
 
-A screenshot of my desktop with trello2txt/conky:
+A screenshot of my desktop with `trello2txt/conky`:
 
 ![screenshot of conky and trello2txt](https://raw.github.com/GustavePate/trello2txt/master/pics/trello+conky.png "Conky + Trello screenshot")
 
